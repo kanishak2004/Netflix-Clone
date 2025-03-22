@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone Project 1</title>
+    <style>
+        *{
+         padding: 0;
+         margin: 0;
+         font-family: serif;
+        }
+    .main{
+        background-image: url(background.jpg);
+        height: 70vh;
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: max(1750px, 100vw);
+    }
+    .main .box{
+        height: 70vh;
+        width: 100%;
+        background-color: black;
+        opacity: 0.45;
+        top: 0;
+        position: absolute;
+    }
+    nav{
+        max-width: 60vw;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+    }
+    nav img{
+        color: red;
+        width: 130px;
+        position: relative;
+        z-index: 10 ;
+    }
+    nav button{
+        position: relative;
+        z-index: 10 ;
+    }
+    .hero{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: larger;
+        position: relative;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .hero :first-child{
+        font-size: 48px;
+        font-weight: bolder;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+       <nav>
+        <span><img src="logo.svg" width="80"></span>
+        <div>
+            <button>
+                English
+            </button>
+            <button>
+                Sign In
+            </button>
+        </div>
+        </nav>
+     <div class="box">
+    </div>
+    <div class="hero">
+<span>
+
+    Enjoy big movies, hit series and more from $21.
+</span>
+<span>
+
+    Join today . cancel anytime.
+</span>
+       <span>
+
+           Ready to watch? Enter your email to create or restart your membership 
+        </span> 
+    </div>
+
+    </main>
+</body>
+</html>
